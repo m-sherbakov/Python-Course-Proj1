@@ -74,7 +74,6 @@ def get_duck_image_url():
 
 @bot.command('duck')
 async def duck(ctx):
-    '''По команде duck вызывает функцию get_duck_image_url'''
     image_url = get_duck_image_url()
     await ctx.send(image_url)
 
