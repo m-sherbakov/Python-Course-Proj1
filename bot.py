@@ -88,4 +88,4 @@ async def nft(ctx):
     await ctx.send(file=picture)
 
 
-bot.run(TOKEN)
+bot.run(TOKEN)#запуск
